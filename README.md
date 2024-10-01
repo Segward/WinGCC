@@ -1,4 +1,4 @@
-# Installing gcc and adding custom environmental variable paths
+# Installing gcc and adding custom environmental variables path
 
 ### Installing gcc: 
 * Download and install MSYS2 [MSYS2](https://www.msys2.org) 
@@ -26,8 +26,7 @@ pacman -S mingw-w64-i686-gcc
 
 ### Terminal codes used for cloning the repository:
 ```(shell)
-cd /
-git clone https://github.com/Segward/gcc.git
+cd / ; git clone https://github.com/Segward/gcc.git
 ```
 
 ### Paths to add to environmental variables path:
@@ -37,4 +36,4 @@ C:\msys64\mingw32\bin
 C:\gcc
 ```
 
-#### Note: your paths may vary depending on where you installed msys2, g++86.bat and gcc86.bat
+#### Note: your paths may vary depending on where you installed msys2
