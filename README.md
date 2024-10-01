@@ -1,6 +1,6 @@
 # Installing gcc and adding custom environmental variables path
 
-### Installing gcc: 
+### Installing steps: 
 * Download and install MSYS2 [MSYS2](https://www.msys2.org) 
 * Open the terminal MSYS2 MINGW64 
 * Update the package database and core system packages: ` pacman -Syu `
