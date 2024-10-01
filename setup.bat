@@ -11,7 +11,7 @@ SET "RELATIVE_BIN_PATH=.\bin"
 FOR %%i IN ("%RELATIVE_BIN_PATH%") DO SET "ABSOLUTE_BIN_PATH=%%~fi"
 
 :: Add a new path to the userPath variable
-set "unfilteredPath=C:\msys2\mingw64\bin;C:\msys2\mingw32\bin"
+set "unfilteredPath=C:\msys64\mingw64\bin;C:\msys64\mingw32\bin"
 set "filteredPath="
 
 :: Add absoluate path to the unfilteredPath variable
