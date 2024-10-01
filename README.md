@@ -9,9 +9,12 @@
 * Install the x86 gcc package: ` pacman -S mingw-w64-i686-gcc `
 * Add the bin of mingw64 to the environmental variables path: ` C:\msys64\mingw64\bin `
 * Add the bin of mingw32 to the environmental variables path: ` C:\msys64\mingw32\bin `
+* To compile with x86_64 use ` g++ ` or ` gcc `
 
 ### Adding custom environmental variables path
 * Git clone this repository to your root directory ` cd / ; git clone https://github.com/Segward/gcc.git `
+* Add the directory to the environmental variables path: ` C:\gcc `
+* To compile with x86 / i686 use ` g++86 ` or ` gcc86 `
 
 ### Terminal codes used in MSYS2 MINGW64:
 ```(shell)
